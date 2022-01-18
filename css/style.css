@@ -44,9 +44,9 @@ body {
   display: none;
 }
 
-.my-mob-bar {1
+.my-mob-bar {
   cursor: pointer;
-  font-size: 18px;7
+  font-size: 18px;
   font-weight: 500;
   line-height: 20px;
   vertical-align: middle;
@@ -147,15 +147,15 @@ body {
   width: 50%;
 }
 
-.my-feature-title {
+/* .my-features-title {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
   color: #9490ff;
-}
+} */
 
-.my-featureslist {
+.my-features-list {
   color: #f5f5ff;
   list-style: none;
   font-style: normal;
@@ -186,12 +186,12 @@ body {
   width: 30px;
 }
 
-.my-works-section {
+/* .my-work-section {
   display: grid;
   min-height: 50vh;
-}
+} */
 
-.my-project-section {
+.my-work-section {
   display: flex;
   justify-content: center;
 }
@@ -216,7 +216,7 @@ body {
   color: #a2a3ae;
 }
 
-.my-recent-project-title {
+.my-recent-work-title {
   color: #9490ff;
   padding: 10px 45px;
   font-size: 40px;
@@ -243,7 +243,7 @@ body {
   line-height: 44px;
 }
 
-.my-project-desc-p {
+.my-proj-desc-p {
   color: #dcdce8;
   font-style: normal;
   font-weight: normal;
@@ -462,7 +462,7 @@ textarea::placeholder {
   order: 9;
 }
 
-.my-recent-projects {
+.my-recent-work {
   padding-top: 50px;
 }
 
@@ -474,8 +474,8 @@ textarea::placeholder {
     display: flex;
   }
 
-  .my-recent-project-title {
-    font-size: 64px;
+  .my-recent-work-title {
+    font-size: 48px;
     line-height: 114px;
     font-weight: 700;
   }
@@ -587,8 +587,6 @@ textarea::placeholder {
     font-size: 16px;
     line-height: 24px;
     color: #b3bac5;
-
-    /* margin: 0 30% 0 30%; */
     text-align: center;
   }
 
