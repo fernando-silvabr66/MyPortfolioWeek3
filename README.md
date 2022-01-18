@@ -1,16 +1,16 @@
-# MyPortfolio-Week2
+# MyPortfolio-W3
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-> Module 1, Week 2 - Day 2 - Update to MyPortfolio Project
-> Continuing MyPortfolio work for Microverse Program - Week 2
+> Module 1, Week 3 - Updates to MyPortfolio Project
+> Continuing MyPortfolio work for Microverse Program - Week 3
 
 
 ![screenshot](./app_screenshot.png) <!--- Place a screenshot of my project here -->
 
 Professional personnal portfolio website which showcase my skills and projects as a Web Software Developer.
-  Lesson: "Portfolio: add a contact form and finish the mobile version"
+  
 
 ## Built With
 
