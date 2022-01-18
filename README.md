@@ -37,8 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Github page for this project
 
-- << to be created >>>
-
+- https://fernando-silvabr66.github.io/MyPortfolio-W3/
 
 
 ## Authors
