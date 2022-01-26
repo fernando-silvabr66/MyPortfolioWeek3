@@ -52,11 +52,10 @@ body {
   display: none;
 }
 
-.my-nav-list > li > a {
+/* .my-nav-list > li > a {
   color: inherit;
   text-decoration: inherit;
-  
-}
+} */
 
 .my-workl {
   display: none;
@@ -252,17 +251,17 @@ body {
   font-weight: lighter;
 }
 
+.my-work-title a {
+  text-decoration: none;
+  color: #a2a3ae;
+}
+
 .my-work-title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   padding-left: 20px;
   margin: 1px;
-}
-
-.my-work-title a {
-  text-decoration: none;
-  color: #a2a3ae;
 }
 
 .my-recent-work-title {
@@ -465,7 +464,6 @@ textarea::placeholder {
   justify-content: space-around;
   justify-content: center;
   flex-direction: column;
-  /* align-items: baseline; */
 }
 
 .my-hrbar-full {
@@ -550,7 +548,7 @@ textarea::placeholder {
   .my-email {
     margin-top: 10px;
   }
-  
+
   .my-footer-hr {
     display: none;
   }
