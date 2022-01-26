@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<head>    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD5EDBHS6D"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){window.dataLayer.push(arguments);}
@@ -26,6 +26,7 @@
 
     <title>Fernando´s Portfolio</title>
 </head>
+
 <body>
     <header class="my-header-section" >
         <h1 class="my-logo">Fernando</h1>
@@ -34,12 +35,23 @@
                 <i class="fa fa-bars my-baricon"></i>
             </div>
             <ul class="my-nav-list">
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#my-work-social"></a>Portfolio</li>
+                <li><a href="#my-recent-work"></a>About</li>
+                <li><a href="#my-contact-section"></a>Contact</li>
                 <li><i class="fa fa-envelope"></i></li>
               </ul>
         </nav>
+        <div class="my-mob-menu">
+            <i class="my-close-menu fa fa-times"></i>
+            <div class="my-mob-nav-div">
+                <ul class="my-mob-nav">
+                    <li class="my-btn-Portfolio"><a href="#my-work-social">Portoflio</a><span>></span></li>
+                    <li class="my-btn-About"><a href="#my-content">About</a><span>></span></li>
+                    <li class="my-btn-Contact"><a href="#my-contact-section">Contact</a><span>></span></li>
+                </ul>
+            </div>
+        </div>        
+
     </header>
         
     <section class="my-content">
@@ -65,7 +77,7 @@
                     <li>Css</li>
                     </ul>
                 </li>
-                <li class="my-tec my-frame ">
+                <li class="my-tec my-frame">
                     <h2>Frameworks</h2>
                     <ul class="my-features-list"> 
                     <li>Bootstrap</li>
@@ -87,10 +99,9 @@
                 </li>
               </ul>
         </div>
-    </section>
-    
+    </section>    
    
-    <div class="my-work-social">
+    <div class="my-work-social" id="my-work-social">
         <div class="my-work my-workl">
             <div class="my-work-section">                
                 <h6 class="my-work-title"><a href="#">Work</a></h6>
@@ -113,10 +124,8 @@
             </div>
         </div>
     </div>
-
-
     
-    <section class="my-recent-work">
+    <section class="my-recent-work" id="my-recent-work">
         <h3 class="my-recent-work-title">MY RECENT WORK</h3>
         <hr class="my-hrbar">
         <div class="my-projs my-grid-container">
@@ -247,7 +256,7 @@
         </div>
         
     </section>
-    <section class="my-contact-section">
+    <section class="my-contact-section" id="my-contact-section">
         <h4>Let´s chat!</h4>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
         <form action="https://formspree.io/f/moqrjakr" method="POST" id="my-contact-form">
@@ -283,5 +292,6 @@
         </div>        
     </section>
     <hr class="my-footer-hr">
+    <script src="./scripts/my-mob-menu.js" ></script>    
 </body>
 </html>
