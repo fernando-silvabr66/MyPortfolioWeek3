@@ -18,10 +18,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "extends": "stylelint-config-standard",
-  "rules": {
-    "no-eol-whitespace": null
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fernando-silvabr66/tutorial-linters.git"
